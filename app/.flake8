@@ -1,0 +1,8 @@
+# En este tipo de archivo flake8, se hace una lista excluyendo a algundos directorios de Django, se utiliza siempre [flake8]
+# Se utilizar este comando para ejecutar flake8, docker-compose run --rm app sh -c "flake8"
+[flake8]
+exclude =
+    migrations,
+    __pycache__,
+    manage.py,
+    settings.py
