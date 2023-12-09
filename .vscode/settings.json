@@ -1,0 +1,8 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "python.pythonPath": "/py/bin/python"
+    },
+    "python.formatting.provider": "none",
+
+}
